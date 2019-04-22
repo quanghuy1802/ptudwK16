@@ -118,7 +118,7 @@ header i{ font-size: 1.1em; }
 
 header:after{ content:''; clear: both; }
 
-header .logo{ float: left; height: 24px; margin: 28px 0; }
+header .logo{ float: left; height: 60px; margin: 28px 0; }
 
 header .logo img{ height: 100%; width: auto; }
 
@@ -371,9 +371,9 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .bg-map{ background: url(../images/map.png) no-repeat center; background-size: cover; }
 
-.bg-1{ background: url(../images/slider-1-1200x900.jpg) no-repeat center; background-size: cover; }
-.bg-2{ background: url(../images/slider-2-450x600.jpg) no-repeat center; background-size: cover; }
-.bg-3{ background: url(../images/slider-3-450x600.jpg) no-repeat center; background-size: cover; }
+.bg-1{ background: url(../images/hai8449-1555821128621239038628.jpg) no-repeat top; background-size: cover; }
+.bg-2{ background: url(../images/573900953809541991612057347346569823256576n-15558514883161283786603.jpg) no-repeat center; background-size: cover; }
+.bg-3{ background: url(../images/photo-1-15558259868801607440752.jpg) no-repeat center; background-size: cover; }
 .bg-4{ background: url(../images/slider-4-450x600.jpg) no-repeat center; background-size: cover; }
 .bg-5{ background: url(../images/slider-5-450x600.jpg) no-repeat center; background-size: cover; }
 .bg-6{ background: url(../images/slider-6-450x600.jpg) no-repeat center; background-size: cover; }
