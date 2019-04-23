@@ -14,14 +14,14 @@
 	<link href="plugin-frameworks/bootstrap.css" rel="stylesheet">
 	
 	<link href="fonts/ionicons.css" rel="stylesheet">
-	
+	<link rel="stylesheet" href="common/login.css">
 		
 	<link href="common/styles.css" rel="stylesheet">
 	
 	
 </head>
 <body>
-	
+
 	<header>
 		<div class="bg-191">
 			<div class="container">	
@@ -38,8 +38,8 @@
 						<li><a href="#"><i class="ion-social-google"></i></a></li>
 
 						<li><a href="#"><i class="ion-social-instagram"></i></a></li>-->
-						<li><a class="pl-0 pl-sm-10" href="#">Đăng nhập</a></li>
-						<li><a href="#">Đăng ký</a></li>
+						<li><a class="pl-0 pl-sm-10" href="#" onclick="document.getElementById('id01').style.display='block'">Đăng nhập</a></li>
+						<li><a href="#" onclick="document.getElementById('id01').style.display='block'">Đăng ký</a></li>
 
 						
 					</ul>
@@ -501,7 +501,53 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div><!-- oflow-hidden -->
 		</div><!-- container -->
 	</footer>
+	<header>
+		<div id="id01" class="modal">
+			<form class="modal-content animate" action="/action_page.php">
+			    <div class="container">
+			      <label for="uname"><b>Email</b></label>
+			      <input type="text" placeholder="Nhập email" name="uname" required>
+
+			      <label for="psw"><b>Mật khẩu</b></label>
+			      <input type="password" placeholder="Nhập mật khẩu" name="psw" required>
+			        
+			      <button class="loginbtn" type="submit">Login</button>
+			      <label>
+			        <input type="checkbox" checked="checked" name="remember"> Remember me
+			      </label>
+			    </div>
+
+			    <div class="container" style="background-color:#f1f1f1">
+			      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			      <span class="psw"><a href="#">Quên mật khẩu?</a></span>
+			    </div>
+			  </form>
+		</div>
+	</header>
 	
+	<header>
+		<div id="id02" class="modal">
+			<form class="modal-content animate" action="/action_page.php">
+			    <div class="container">
+			      <label for="uname"><b>Email</b></label>
+			      <input type="text" placeholder="Nhập email" name="uname" required>
+
+			      <label for="psw"><b>Mật khẩu</b></label>
+			      <input type="password" placeholder="Nhập mật khẩu" name="psw" required>
+			        
+			      <button class="loginbtn" type="submit">Login</button>
+			      <label>
+			        <input type="checkbox" checked="checked" name="remember"> Remember me
+			      </label>
+			    </div>
+
+			    <div class="container" style="background-color:#f1f1f1">
+			      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			      <span class="psw"><a href="#">Quên mật khẩu?</a></span>
+			    </div>
+			  </form>
+		</div>
+	</header>
 	<!-- SCIPTS -->
 	
 	<script src="plugin-frameworks/jquery-3.2.1.min.js"></script>

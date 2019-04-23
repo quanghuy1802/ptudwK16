@@ -230,3 +230,11 @@ function isExists(elem){
 	}
 	return false;
 }
+
+
+function numberinput(a,b){
+    for(var i=a;i<=b;i++)
+    {
+        document.write("<option>"+i+"</option>");
+    }
+}
