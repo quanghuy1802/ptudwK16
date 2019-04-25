@@ -340,9 +340,16 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 	
 	.float-sm-none{ float: none!important; }
 
-	.text-sm-center{ text-align: center; }
+	.text-sm-center{ text-align: center;}
+
+
 	
 	.font-sm-13{ font-size: 1.3em; }
+}
+
+.right
+{
+	float: right !important;
 }
 
 
@@ -437,7 +444,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .btn-brdr-grey:hover{ border: 1px solid #F9B500; background: #F9B500; color: #000; }
 
 .btn-fill-primary{ text-align: center; height: 45px; line-height: 43px; border: 1px solid #F9B500; background: #F9B500; 
-	border-radius: 2px; color: #111; }
+	border-radius: 2px; color: blue; }
 .btn-fill-primary:hover{ background: none; }
 
 .btn-fill-grey{ text-align: center; height: 45px; line-height: 43px; border: 1px solid #ccc; background: #ccc; 
@@ -447,6 +454,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .btn-b-md{ font-size: .9em; height: 35px; line-height: 35px; }
 .btn-b-sm{ font-size: .9em; height: 30px; line-height: 28px; }
+
+
 
 
 /* FORM INPUT STYLING */
