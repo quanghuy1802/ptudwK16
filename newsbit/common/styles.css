@@ -138,7 +138,7 @@ header .close-icn{ display: none; }
 header .src-icn.active,
 header .close-icn.active{ display: block; }
 
-header .src-form{ position: absolute; top: 0px; bottom: 0px; left: 15px; right: 45px; z-index: 1; 
+header .src-form{ position: absolute; top: 75px; bottom: 0px; left: 150px; right: 45px; z-index: 1; 
 	max-width: 0; overflow: hidden; -webkit-transition: all .2s; transition: all .2s; }
 
 header .src-form.active{ max-width: 3000px;  }
@@ -151,7 +151,7 @@ header .src-form input{ display: block; width: 100%; height: 100%; padding: 0 15
 
 header .src-form input:focus{ background: #f1f2f1; }
 
-header .src-form button{ position: absolute; top: 0; bottom: 0; left: 0; width: 60px; background: #eee; }
+header .src-form button{ position: absolute; top: 10px; bottom: 0; left: 0; width: 60px; background: #eee; }
 
 
 
@@ -381,9 +381,9 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .bg-1{ background: url(../images/hai8449-1555821128621239038628.jpg) no-repeat top; background-size: cover; }
 .bg-2{ background: url(../images/573900953809541991612057347346569823256576n-15558514883161283786603.jpg) no-repeat center; background-size: cover; }
 .bg-3{ background: url(../images/photo-1-15558259868801607440752.jpg) no-repeat center; background-size: cover; }
-.bg-4{ background: url(../images/slider-4-450x600.jpg) no-repeat center; background-size: cover; }
-.bg-5{ background: url(../images/slider-5-450x600.jpg) no-repeat center; background-size: cover; }
-.bg-6{ background: url(../images/slider-6-450x600.jpg) no-repeat center; background-size: cover; }
+.bg-4{ background: url(http://kenh14cdn.com/zoom/460_289/2019/5/2/dsc02079-155680951350270269172-15568110267051929898221-crop-1556898366761489245047.png) no-repeat center; background-size: cover; }
+.bg-5{ background: url(http://kenh14cdn.com/zoom/220_289/2019/5/3/ava2doc-15568994242101689109369-crop-15568994307481340710362.jpg) no-repeat center; background-size: cover; }
+.bg-6{ background: url(http://kenh14cdn.com/zoom/280_175/2019/5/4/avacau-copy-15569374607411050546047-crop-1556937471461353081767.png) no-repeat center; background-size: cover; }
 
 
 .bg-grad-layer-6:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
@@ -1974,7 +1974,6 @@ section{ padding: 50px 0; }
 
 .input[type=text]{
 	border-radius: 4px;
-	
 	height: 40px;
 	border: 1px solid #cccccc;
 	padding: 5px 10px;
